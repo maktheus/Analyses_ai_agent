@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  file-analyzer:
+    build: .
+    volumes:
+      - ./data:/app/data  # Pasta para arquivos a serem analisados
+      - ./index:/app/index  # Pasta para armazenar os índices
+    environment:
+      - OLLAMA_HOST=ollama:11434  # Endereço do serviço Ollama
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama  # Persiste os modelos baixados
+
+volumes:
+  ollama_data:  # Volume para persistir os modelos do Ollama 

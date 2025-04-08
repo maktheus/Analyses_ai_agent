@@ -1,0 +1,17 @@
+Este é um arquivo de exemplo para testar o agente de análise.
+Ele contém algumas informações importantes:
+
+1. Logs de sistema:
+   - Erro 404: Página não encontrada
+   - Erro 500: Erro interno do servidor
+   - Acesso negado: Tentativa de login inválida
+
+2. Métricas de performance:
+   - Tempo de resposta médio: 200ms
+   - Uso de CPU: 45%
+   - Uso de memória: 60%
+
+3. Alertas:
+   - Backup não realizado
+   - Disco com pouco espaço
+   - Tentativas de acesso suspeitas 
