@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+dependency_links.txt
+requires.txt
+PKG-INFO
+SOURCES.txt
+top_level.txt
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos específicos do projeto
+index/
+data/
+*.faiss
+.env
+
+# Logs
+*.log
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db 
